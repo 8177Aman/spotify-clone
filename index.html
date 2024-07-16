@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>The ultimate music app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+
+</head>
+
+<body>
+    <div class="container flex">
+
+        <div class="left ">
+            <img class="cloz" src="images/close.png" alt="close">
+
+            <div class="home rounded p-1 m-1 bg-grey">
+                <img class="invert " src="logo.svg" alt="logo">
+                <ul class="bg-grey">
+                    <li><img class="invert" src="home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library rounded p-1 m-1 bg-grey">
+
+                <div class="heading bg-grey">
+                    <img class="invert" src="playlist.svg" alt="playlist">
+                    <h2 class="bg-grey">Your Library</h2>
+
+                </div>
+                <div class="songList">
+                    <ul>
+
+                    </ul>
+                </div>
+
+                <div class="footer bg-grey">
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="right ">
+            <div class="header bg-grey">
+                <div class="nav">
+
+                    <img class="hamburger" src="images/hamburger.png" alt="">
+
+
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="#ffffff"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="#ffffff"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="hederButton">
+                    <button class="signBtn">Sign up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+
+
+            </div>
+
+            <div class="spotifyPlaylist bg-spotifyPlaylist">
+                <h1>Folders</h1>
+                <div class="cardContainer">
+                    <div class="card ">
+                        <div class="playBtn">
+                            <svg width="44" height="44" viewBox="0 0 44 44" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="22" cy="22" r="21" fill="#1fdf64" />
+                                <path d="M17.5 10V30L27 20L17.5 10Z" fill="#000" />
+                            </svg>
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f0000000254473de875fea0fd19d39037" alt="">
+                        <h1>Happy Hits!</h1>
+                        <p>chill beats, lofi vibes, new tracks every week...</p>
+                    </div>
+                    <div class="card ">
+                        <img src="https://i.scdn.co/image/ab67706f000000024c4ae64d4ed1fa93a1b886ca" alt="">
+                        <h1>Today’s Top Hits!</h1>
+                        <p>Taylor Swift is on top of the Hottest 50!</p>
+                    </div>
+                    <div class="card ">
+                        <img src="https://i.scdn.co/image/ab67706f00000002dec17246891b5b4eb97bdb0d" alt="">
+                        <h1>Chillout Lounge</h1>
+                        <p>Just lean back and enjoy relaxed beats.</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- playerArea ends here 🚉🚉 -->
+            <div class="playerArea">
+
+                <div class="album">
+                    <div class="songInfo">
+
+
+                    </div>
+                </div>
+
+                <div class="controlPannel">
+                    <div class="seekBar">
+                        <div class="insiderCircle"> </div>
+                    </div>
+                    <div class="abovebar">
+                        <div class="songbuttons">
+                            <img width="35" id="previous" src="images/backword.png" alt="">
+                            <img width="35" id="play" src="images/playSong.png" alt="">
+                            <img width="35" id="next" src="images/forward-100.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="other">
+                    <div class="timevol">
+                        <div class="songTime">
+                        </div>
+                        <div class="volume">
+                            <img width="25" src="images/volume.png" alt="">
+                            <div class="range">
+                                <input type="range" name="volume" id="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <!-- playerArea ends here 🔚 -->
+
+        </div>
+
+    </div>
+
+</body>
+<script src="script.js"></script>
+</hml>
